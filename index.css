@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+main {
+  height: 970px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.haupt {
+  position: relative;
+  background-color: #e4e2e2;
+  height: 90%;
+  width: 500px;
+  border-radius: 15px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+header {
+  display: flex;
+  gap: 91px;
+  justify-content: center;
+  padding-top: 35px;
+}
+i {
+  padding: 28px;
+  font-size: xx-large;
+  border-radius: 10px;
+  box-shadow: inset 7px 7px 14px #b3b3b3, inset -7px -7px 14px #ffffff;
+}
+.p {
+  font-family: "Inter", sans-serif;
+  margin-top: 20px;
+  font-weight: 900;
+}
+header > i:last-child {
+  color: #f24423;
+  border-radius: 10px;
+  box-shadow: inset 7px 7px 14px #b3b3b3, inset -7px -7px 14px #ffffff;
+}
+.bild {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  box-shadow: 10px -10px 20px white, -1px -1px 20px black;
+}
+.text {
+  text-align: center;
+  margin-top: 15px;
+}
+#F-text {
+  font-size: x-large;
+}
+#S-text {
+  font-size: x-large;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+  color: #7e7e7f;
+}
+.line {
+  width: 400px;
+  height: 12px;
+  background: rgb(172, 178, 187);
+  background: linear-gradient(
+    94deg,
+    #84c6f1 10%,
+    #1188d1 37%,
+    #18e3f2 70%,
+    rgba(255, 255, 255, 1) 64%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.icon {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.icon i:first-child,
+i:last-child {
+  box-shadow: -10px 10px 20px #b3b3b3, 10px -10px 20px #ffffff;
+  color: #4b4a4a;
+}
+.icon i:nth-child(2) {
+  box-shadow: inset -10px 10px 17px #cacaca, inset 10px -10px 17px #f6f6f6;
+  color: #4cc4cf;
+}
+.lasty {
+  height: 10px;
+  background-color: white;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: inset -2px 2px 9px #807e7e, inset 2px -2px 9px #ffffff;
+  margin: auto;
+  margin-top: 30px;
+}
